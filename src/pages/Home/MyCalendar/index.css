@@ -1,0 +1,86 @@
+.site-calendar-customize-header-wrapper {
+  width: 300px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+  position: absolute;
+  z-index: 1;
+  border: none;
+  border-radius: 0px;
+  content: '';
+}
+
+.ant-picker-cell .ant-picker-cell-inner {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  min-width: 43px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 0px;
+  transition: background 0.3s, border 0.3s;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner, .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner, .ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+  color: #000;
+  background: #fff;
+}
+
+.choosedDay{
+  background-color: #485f75;
+  color: #f0f0f0;
+}
+
+.chooseWeekday{
+  background-color: #fff;
+  border: none;
+  min-width: 43px;
+  height: 24px;
+
+}
+.chooseWeekday:hover{
+  background-color:#d1d1d1
+}
+.chooseWeekday:active{
+  color: #fff;
+  background-color: #485f75;
+}
+
+.choosedWeekday{
+  background-color: antiquewhite;
+  border: none;
+  min-width: 43px;
+  height: 24px;
+}
+
+.choosedWeekday:hover{
+  background-color:#d1d1d1
+}
+.choosedWeekday:active{
+  color: #fff;
+  background-color: #485f75;
+}
+
+#sure{
+  background-color:aquamarine;
+  margin-left: 20px;
+
+}
+#cancel{
+  background-color:wheat;
+  margin-left: 110px;
+
+}
+
+#empty{
+  background-color: beige;
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.result{
+  display:block;
+}

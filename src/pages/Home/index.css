@@ -1,0 +1,9 @@
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(56, 49, 49, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
